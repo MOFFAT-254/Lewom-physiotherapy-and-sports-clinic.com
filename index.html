@@ -507,8 +507,12 @@ on<!DOCTYPE html>
             <form id="bookingForm">
                   <input type="text" id="bname" placeholder="Your Name" required>
                   <input type="text" id="bphone" placeholder="Phone Number" required>
-                  <input type="date" id="bdate" placeholder="Select Date" required>
-                  <input type="time" id="btime" placeholder="Select Time" required>
+                  <label for="bdate">Select Date</label>
+                  <input type="date" id="bdate" required>
+
+                  <label for="btime">Select Time</label>
+                  <input type="time" id="btime" required>
+            
                   
                   <select id="bservice" required>
                         <option value="">Select Service</option>
