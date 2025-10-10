@@ -596,8 +596,10 @@ on<!DOCTYPE html>
                   let phone = document.getElementById("bphone").value;
                   let date = document.getElementById("bdate").value;
                   let service = document.getElementById("bservice").value;
-                  let url = `https://wa.me/254702035452?text=Hello, I’d like to book a session.%0AName: ${name}%0APhone: ${phone}%0ADate: ${date}%0AService: ${service}`;
-                  window.open(url, "_blank");
+                  let time = document.getElementById("btime").value;
+
+                     let url = `https://wa.me/254702035452?text=Hello, I’d like to book a session.%0AName: ${name}%0APhone: ${phone}%0ADate: ${date}%0ATime: ${time}%0ACondition/Service: ${service}`;
+                    window.open(url, "_blank");
             });
       </script>
 </body>
